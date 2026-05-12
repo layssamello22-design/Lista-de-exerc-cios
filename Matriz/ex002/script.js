@@ -17,13 +17,18 @@ function main() {
     ];
 
     let soma = 0;
+
     let saida = document.getElementById("saida");
+
     saida.innerHTML = "";
 
     for (let i = 0; i < matriz.length; i++) {
-        for (let j = 0; j < matriz[i].length; j++) {
-            saida.innerHTML += matriz[i][j] + " ";
-            soma += matriz[i][j];
+
+        for (let c = 0; c < matriz[i].length; c++) {
+
+            saida.innerHTML += matriz[i][c] + " ";
+
+            soma += matriz[i][c];
         }
 
         saida.innerHTML += "<br>";

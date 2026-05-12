@@ -24,9 +24,9 @@ function main() {
 
     for (let i = 0; i < matriz.length; i++) {
 
-        for (let j = 0; j < matriz[i].length; j++) {
+        for (let c = 0; c < matriz[i].length; c++) {
 
-            resultado += matriz[i][j] + " ";
+            resultado += matriz[i][c] + " ";
         }
 
         resultado += "<br>";
